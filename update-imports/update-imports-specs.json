@@ -1,0 +1,21 @@
+{
+  "replaceImportsMappings": [
+    {
+      "source": { "mustReplaceLib": "REP_LIB_1" },
+      "identifiers": {
+        "mustReplaceId1": "REP_1",
+        "mustReplaceId2": "REP_2",
+        "replaceOnlyImport1": "REP_IMP_1"
+      }
+    },
+    {
+      "source": { "mustReplaceLib2": "REP_LIB_2" },
+      "identifiers": {
+        "replaceOnlyImport2": "REP_IMP_2",
+        "dontReplace1": "NEVER_1",
+        "dontReplace2": "NEVER_2"
+      }
+    }
+  ],
+  "deprecateImportsMappings": []
+}

@@ -6,12 +6,16 @@
   "scripts": {
     "test": "jest"
   },
+  "bin": {
+    "update-imports": "bash update-imports/bin/launch.sh"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "ast-types": "^0.14.2",
     "jscodeshift": "^0.10.0",
     "lodash": "^4.17.19",
+    "minimist": "^1.2.5",
     "recast": "^0.20.4"
   },
   "devDependencies": {
